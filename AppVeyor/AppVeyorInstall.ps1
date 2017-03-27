@@ -3,12 +3,16 @@
 #---------------------------------# 
 Write-Host 'Running AppVeyor install script' -ForegroundColor Yellow
 
+Write-Host "'$($psversiontable.psversion)' installed." -ForegroundColor Yellow
+
 #---------------------------------# 
 # Install NuGet                   # 
 #---------------------------------# 
 Write-Host 'Installing NuGet PackageProvide'
 $pkg = Install-PackageProvider -Name NuGet -Force
 Write-Host "Installed NuGet version '$($pkg.version)'" 
+
+Update-Module -Name PowerShellGet
 
 #---------------------------------# 
 # Install Pester                  # 
