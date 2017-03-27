@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/3gss8t2eqfcn7q2a/branch/dev?svg=true)](https://ci.appveyor.com/project/svenvanrijen/powershell-lab-module/branch/dev)
+[![Build status](https://ci.appveyor.com/api/projects/status/xw8s8analh7gpqvx/branch/dev?svg=true)](https://ci.appveyor.com/project/svenvanrijen/newlabenvironment/branch/dev)
 
 # PowerShell-Lab-Module
 A Powershell module for (re)building your (home) lab environment on Hyper-V
