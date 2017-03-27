@@ -11,7 +11,6 @@ Write-Host "'$($psversiontable.psversion)' installed." -ForegroundColor Yellow
 Write-Host 'Installing NuGet PackageProvide'
 $pkg = Install-PackageProvider -Name NuGet -Force
 Write-Host "Installed NuGet version '$($pkg.version)'" 
-
 #---------------------------------# 
 # Install Pester                  # 
 #---------------------------------# 
