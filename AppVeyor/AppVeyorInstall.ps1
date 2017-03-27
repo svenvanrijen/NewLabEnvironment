@@ -3,6 +3,8 @@
 #---------------------------------# 
 Write-Host 'Running AppVeyor install script' -ForegroundColor Yellow
 
+Write-Host "$psversiontable" -ForegroundColor Yellow
+
 #---------------------------------# 
 # Install NuGet                   # 
 #---------------------------------# 
