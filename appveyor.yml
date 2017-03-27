@@ -2,7 +2,8 @@
 #      environment configuration  # 
 #---------------------------------# 
 version: 2.3.{build}
-os: WMF 5
+image: WMF 5
+skip_branch_with_pr: true
 install:
   - ps: . .\AppVeyor\AppVeyorInstall.ps1
 
