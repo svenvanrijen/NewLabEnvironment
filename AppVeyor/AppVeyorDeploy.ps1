@@ -12,6 +12,7 @@ if ($env:APPVEYOR_REPO_BRANCH -notmatch 'master')
     exit;
 }
 
+
 #---------------------------------# 
 # Publish to PS Gallery           # 
 #---------------------------------# 
