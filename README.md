@@ -1,4 +1,4 @@
-## Master: [![Build status](https://ci.appveyor.com/api/projects/status/xw8s8analh7gpqvx/branch/dev?svg=true)](https://ci.appveyor.com/project/svenvanrijen/newlabenvironment/branch/dev)
+## Master: [![Build status](https://ci.appveyor.com/api/projects/status/xw8s8analh7gpqvx/branch/master?svg=true)](https://ci.appveyor.com/project/svenvanrijen/newlabenvironment/branch/master)
 ## Dev: [![Build status](https://ci.appveyor.com/api/projects/status/xw8s8analh7gpqvx/branch/dev?svg=true)](https://ci.appveyor.com/project/svenvanrijen/newlabenvironment/branch/dev)
 
 # PowerShell-Lab-Module
