@@ -11,25 +11,6 @@ if ($env:APPVEYOR_REPO_BRANCH -notmatch 'master')
     Write-Host "Finished testing of branch: $env:APPVEYOR_REPO_BRANCH - Exiting"
     exit;
 }
-Write-Host 'Creating new module manifest'
-$ModuleManifestPath = Join-Path -path "$pwd" -ChildPath ("$env:ModuleName"+'.psd1')
-$ModuleManifest     = Get-Content $ModuleManifestPath -Raw
-$a = $ModuleManifest.Split("'",[StringSplitOptions]'RemoveEmptyEntries')
-
-$b = $a[1]
-
-$c = $b.Split(".",[StringSplitOptions]'RemoveEmptyEntries')
-
-[int]$d = $c[1]
-
-$d
-
-$e = $d + 1
-[regex]::replace($ModuleManifest,'(ModuleVersion = )(.*)',"`$1'2.$e'") | Out-File -LiteralPath $ModuleManifestPath
-
-$date = get-date -Format dd-MM-yyy
-
-[regex]::replace($ModuleManifest,'(Generated on:)(.*)',"`$1 $date") | Out-File -LiteralPath $ModuleManifestPath
 
 #---------------------------------# 
 # Publish to PS Gallery           # 
