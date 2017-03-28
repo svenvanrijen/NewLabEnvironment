@@ -1,7 +1,7 @@
 #---------------------------------# 
 #      environment configuration  # 
 #---------------------------------# 
-version: 2.3.{build}
+version: 2.4.{build}
 pull_requests:
   do_not_increment_build_number: true
 skip_branch_with_pr: true
