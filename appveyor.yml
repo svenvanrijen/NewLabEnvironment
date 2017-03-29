@@ -21,6 +21,7 @@ environment:
 #  MyNonSecureVar: NonSecure
 
   ModuleName: NewLabEnvironment
+  
 #---------------------------------# 
 #      build configuration        # 
 #---------------------------------# 
